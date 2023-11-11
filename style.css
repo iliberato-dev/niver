@@ -48,7 +48,8 @@ body {
 /* las imágenes no van a salir del márgen de la pantalla*/
 #slider figure img {
           
-     height: 100%; 
+   height: 90%; 
+     margin-top: 1.25rem; 
      object-fit: contain;
     float: left;
     border: 20px double rgb(209, 84, 172);

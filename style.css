@@ -49,7 +49,7 @@ body {
 #slider figure img {
           
    height: 90%; 
-     margin-top: 1.25rem; 
+     margin-top: 2rem; 
      object-fit: contain;
     float: left;
     border: 20px double rgb(209, 84, 172);

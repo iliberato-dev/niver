@@ -64,7 +64,7 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 50s slidy infinite ease-in-out; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+  animation: 80s slidy infinite ease-in-out; /*el movimiento se va a mantener de forma indefinida -infinito-*/
 }
 
 

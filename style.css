@@ -47,7 +47,7 @@ body {
 
 /* las imágenes no van a salir del márgen de la pantalla*/
 #slider figure img {
-        width: 3%;  
+          
      height: 100%; 
      object-fit: contain;
     float: left;
@@ -59,41 +59,24 @@ body {
 
 div#slider figure { 
   position: relative;
-  width: 1200%;
+  width: 2000%;
   margin: 0;
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 60s slidy infinite ease-in-out; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+  animation: 50s slidy infinite ease-in-out; /*el movimiento se va a mantener de forma indefinida -infinito-*/
 }
 
 
 /*esta parte del código define el movimiento de las imágenes a la izquierda*/
 @keyframes slidy {
-0% { left: 0%; }
-3% { left: 0%; }
-9% { left: -100%; }
-12% { left: -100%; }
-15% { left: -200%; }
-18% { left: -200%; }
-21% { left: -300%; }
-23% { left: -300%; }
-26% { left: -400%; }
-29% { left: -400%; }
-31% { left: -500%; }
-33% { left: -500%; }
-36% { left: -600%; }
-39% { left: -600%; }
-41% { left: -700%; }
-44% { left: -700%; }
-47% { left: -800%; }
-49% { left: -800%; }
-51% { left: -900%; }
-54% { left: -900%; }
-57% { left: -1000%; }
-60% { left: -1000%; }
-63% { left: -1100%; }
-66% { left: -1100%; }
-69% { left: -1200%; }
-71% { left: -1200%; }
+0% { left: 2000%; } 
+
+10% {left: 0%} 
+20% {left: 0%}
+
+
+
+90% { left: -1700%; }
+100% { left: -2000%; }
 }

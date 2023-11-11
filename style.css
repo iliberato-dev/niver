@@ -20,6 +20,16 @@ body {
     border-radius: 8px;
  }
 
+ #meio2 {
+    position: absolute;
+    top: 50%;
+    left: 26.3%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    overflow: hidden;
+    z-index: 100;
+ }
+
 #slider { 
     overflow: hidden;
     height: 100vh; 
